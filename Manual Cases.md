@@ -3,7 +3,7 @@
 ## User Story
 As a registered user, I want to log in to SauceDemo, filter products, select one, and complete the checkout process so I can easily purchase items and verify that the e-commerce flow works correctly.
 
----
+
 
 ### TC-001: Successful Login (Base Positive Case)
 
@@ -19,7 +19,7 @@ As a registered user, I want to log in to SauceDemo, filter products, select one
     * The user is redirected to the Products page (`/inventory.html`).
     * The page title "Products" is visible.
 
----
+
 
 ### TC-002: Failed Login (Negative Scenario: Locked User)
 
@@ -35,7 +35,7 @@ As a registered user, I want to log in to SauceDemo, filter products, select one
     * The user remains on the login page.
     * The error message is displayed: "Epic sadface: Sorry, this user has been locked out."
 
----
+
 
 ### TC-003: Failed Checkout (Negative Scenario: Empty Fields)
 
@@ -53,7 +53,7 @@ As a registered user, I want to log in to SauceDemo, filter products, select one
     * The user remains on the checkout information page.
     * An error message is displayed containing: "Error: First Name is required"
 
----
+
 
 ### TC-004: Product Filter Verification (Positive)
 
@@ -70,7 +70,7 @@ As a registered user, I want to log in to SauceDemo, filter products, select one
     * The first product should be the one starting with the letter closest to Z (e.g., "Test.allTheThings() T-Shirt (Red)").
     * The product list is sorted alphabetically in descending order (Z–A).
 
----
+
 
 ### TC-005: Remove Product from Cart (Secondary Positive Flow)
 
@@ -88,7 +88,7 @@ As a registered user, I want to log in to SauceDemo, filter products, select one
     * The product "Sauce Labs Bike Light" is removed from the cart list.
     * The cart counter (next to the icon) updates to 0.
 
----
+
 
 ### TC-006: Successful Purchase Flow and Completion
 
