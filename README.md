@@ -1,51 +1,50 @@
 # SauceDemo QA Automation Project (Serenity BDD + Cucumber + Allure)
 
-Este proyecto demuestra la automatización de un flujo de compra completo en la aplicación de SauceDemo, utilizando el patrón Screenplay (Serenity BDD) y Java. Genera reportes interactivos con Allure Reports.
+This project demonstrates the automation of a complete purchasing flow in the SauceDemo application, utilizing the Screenplay pattern (Serenity BDD) and Java. It generates interactive reports using Allure Reports.
 
-## Objetivo
+## Objective
 
-El objetivo principal es verificar el flujo completo de e-commerce (login, adición al carrito y checkout), además de validar escenarios negativos de login.
+The main objective is to verify the complete e-commerce flow (login, add to cart, and checkout), in addition to validating negative login scenarios.
 
-## Tecnologías Utilizadas
+## Technologies Used
 
-* **Lenguaje:** Java
+* **Language:** Java
 * **Framework:** Serenity BDD 3.x (Screenplay Pattern)
 * **BDD:** Cucumber (Gherkin Syntax)
-* **Gestor de Dependencias:** Gradle
-* **Reportes:** Allure Reports
+* **Dependency Manager:** Gradle
+* **Reporting:** Allure Reports
 
-## Prerrequisitos
+## Prerequisites
 
-Para ejecutar este proyecto localmente, necesitas:
+To run this project locally, you need:
 
-1.  **Java Development Kit (JDK):** Versión 23.
-2.  **Git:** Para clonar el repositorio.
-3.  **Allure CLI:** (Herramienta de línea de comandos) Instalado globalmente y agregado al PATH de Windows para que el comando `allure serve` funcione.
+1.  **Java Development Kit (JDK):** Version 23.
+2.  **Git:** To clone the repository.
+3.  **Allure CLI:** (Command Line Interface tool) Must be globally installed and added to the Windows PATH for the `allure serve` command to work.
 
-## Configuración e Instalación
+## Configuration and Installation
 
-1.  **Clonar el Repositorio:**
+1.  **Clone the Repository:**
     ```bash
     git clone https://github.com/stephanyromeros/SauceDemo-QA-Challenge.git
     cd SauceDemo-QA-Challenge
     ```
 
-2.  **Sincronizar Gradle:** Abre el proyecto en tu IDE (IntelliJ) para que Gradle descargue todas las dependencias.
+2.  **Sync Gradle:** Open the project in your IDE (IntelliJ) so that Gradle can download all dependencies.
 
-##  Ejecución de Pruebas
+## Test Execution
 
-Para ejecutar el flujo completo y generar el reporte interactivo de Allure, sigue estos dos comandos en secuencia desde tu terminal (CMD o PowerShell) en la carpeta raíz del proyecto:
+To execute the complete flow and generate the interactive Allure report, follow these two commands in sequence from your terminal (CMD or PowerShell) in the project's root folder:
 
-### Paso 1: Ejecutar los Tests y Generar Resultados
+### Step 1: Execute Tests and Generate Results
 
-Este comando ejecuta todos los escenarios definidos en los archivos `.feature`.
+This command executes all scenarios defined in the `.feature` files.
 
 ```bash
-# Usar el wrapper de Gradle
+# Use the Gradle wrapper
 .\gradlew clean test
-
 ```
 
-### Paso 2: Generar y Visualizar el Reporte
+Step 2: Generate and Visualize the Report
 ```bash
 allure serve
