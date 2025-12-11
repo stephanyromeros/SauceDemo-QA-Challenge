@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="1" failures="0" name="Invalid Login" skipped="0" tests="1" time="0.18" timestamp="2025-12-11 02:24:05"><testcase name="Login with invalid credentials"><error message="No stage available - it looks like you haven't called the setTheStage() method before calling this one." type="net.serenitybdd.screenplay.actors.NoStageException">No stage available - it looks like you haven't called the setTheStage() method before calling this one.</error><system-err>No stage available - it looks like you haven't called the setTheStage() method before calling this one.&#13;
-pruebas.stepdefinitions.InvalidLoginStepDefinitions.openApplication(InvalidLoginStepDefinitions.java:17)&#13;
-✽.the user opens the application(file:///C:/Users/tefa1/OneDrive/Documentos/SauceDemoQAAutomation/src/test/resources/features/invalidlogin.feature:9)&#13;
-</system-err></testcase></testsuite>

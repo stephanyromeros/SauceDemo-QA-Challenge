@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="1" failures="0" name="Checkout Validation" skipped="0" tests="1" time="0.2" timestamp="2025-12-11 03:14:18"><testcase name="Checkout fails when the Zip/Postal Code is missing"><error type="java.lang.NullPointerException"/><system-err>null&#13;
-com.google.common.base.Preconditions.checkNotNull(Preconditions.java:889)&#13;
-pruebas.stepdefinitions.PurchaseStepDefinitions.userLoggedIn(PurchaseStepDefinitions.java:48)&#13;
-✽.the user is logged in with username "standard_user" and password "secret_sauce"(file:///C:/Users/tefa1/OneDrive/Documentos/SauceDemoQAAutomation/src/test/resources/features/checkoutvalidation.feature:7)&#13;
-</system-err></testcase></testsuite>
