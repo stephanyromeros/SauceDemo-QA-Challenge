@@ -1,4 +1,4 @@
-#Language: en
+#Language: english
 
 Feature: Invalid Login
   As a user

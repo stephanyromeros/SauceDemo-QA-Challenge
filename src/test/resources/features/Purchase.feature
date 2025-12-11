@@ -1,4 +1,4 @@
-#Language: en
+#Language: english
 
 Feature: Purchase flow on SauceDemo
   As a registered user
